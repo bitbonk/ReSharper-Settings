@@ -1,0 +1,1271 @@
+<Configuration>
+  <SettingsComponent>
+    <string>
+      <setting name="ExportTemplatesDialog.FileName">D:\Dokumente\Config Backup\ReSharper\LiveTemplatesPropertyWithChangedEvent.xml</setting>
+      <setting name="JetBrains.ReSharper.Intentions.CSharp.QuickFixes.CreateClassFromNewFixBase.DefaultInterfacePrefix">I</setting>
+      <setting name="JiraProxyHost">
+      </setting>
+      <setting name="KeyboardScheme">VS</setting>
+      <setting name="LocalizationOptions.ResourceNameTemplate">$TypeName$_$MemberName$_$Value$</setting>
+    </string>
+    <integer>
+      <setting name="bracketMatchHighlightingPosition">2</setting>
+      <setting name="bracketMatchHighlightingStyle">1</setting>
+      <setting name="JetBrains.ReSharper.Intentions.CSharp.QuickFixes.GenerateSwitchLabelsFix.MAGIC_CONST">65535</setting>
+      <setting name="jetbrains.resharper.livetemplates.editor.splitterposition">948</setting>
+      <setting name="JiraProxyPort">0</setting>
+      <setting name="livetemplates.defaultgrouping">1</setting>
+      <setting name="MoveToResource.MoveSameElementsScope">1</setting>
+      <setting name="RefactoringWizardFormLocationX">175</setting>
+      <setting name="RefactoringWizardFormLocationY">76</setting>
+      <setting name="SMART_BRACE_INSERT">1</setting>
+      <setting name="UserInputDeferTime">300</setting>
+    </integer>
+    <boolean>
+      <setting name="BulbsManager.SortBulbs">False</setting>
+      <setting name="CodeViewManager.AutoExpandResults">False</setting>
+      <setting name="CreateVariableFixBase">True</setting>
+      <setting name="CSharpLocalizationOptions.DontAnalyseVerbatimStrings">True</setting>
+      <setting name="FixMouseWheel">True</setting>
+      <setting name="FORMAT_BLOCK_ON_RBRACE">True</setting>
+      <setting name="FORMAT_STATEMENT_ON_SEMICOLON">True</setting>
+      <setting name="GotoFile.IncludeFolders">False</setting>
+      <setting name="HideVsMenuItems">True</setting>
+      <setting name="InlineMethodWorkflowRemoveInitialDeclaration">True</setting>
+      <setting name="InlineMethodWorkflowReplaceAllUsages">True</setting>
+      <setting name="JetBrains.ReSharper.Refactorings.Rename.RenameFile">True</setting>
+      <setting name="JetBrains.ReSharper.Refactorings.Rename.SearchInStrings">True</setting>
+      <setting name="JetBrains.ReSharper.Refactorings.RenameNamespace.SearchInStrings">True</setting>
+      <setting name="jetbrains.resharper.treeview.filter">True</setting>
+      <setting name="JiraIsAnonymous">False</setting>
+      <setting name="JiraProxyAuthentication">False</setting>
+      <setting name="JiraUseDefaultProxy">True</setting>
+      <setting name="MoveToResource.MoveSameElements">True</setting>
+      <setting name="NavigateByControlClick">True</setting>
+      <setting name="PopupListCyclicScroll">True</setting>
+      <setting name="showMemoryUsage">True</setting>
+      <setting name="skipResultsForSingleHierarchyItem">True</setting>
+      <setting name="skipResultsForSingleUsage">True</setting>
+      <setting name="SMART_INDENT_ON_ENTER_NEW">False</setting>
+      <setting name="SMART_PARENTH_INSERT">True</setting>
+      <setting name="SolutionAnalysisIndicator.RoundProgress">True</setting>
+      <setting name="SolutionAnalysisIndicator.ShowErorsCount">True</setting>
+      <setting name="SubmitActivityLogs">False</setting>
+      <setting name="SynchronizeOnFrameActivation">True</setting>
+      <setting name="USE_VS_ICONS">True</setting>
+      <setting name="UseCamelHumps">True</setting>
+      <setting name="UseVarForIntroduceVariableRefactoring">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <HighlightingSettings>
+    <IdentifierHighlightingEnabled>True</IdentifierHighlightingEnabled>
+    <SeverityTable>
+      <MemberCanBePrivate.Global>HINT</MemberCanBePrivate.Global>
+      <MemberCanBeProtected.Global>HINT</MemberCanBeProtected.Global>
+      <MemberCanBeInternal>HINT</MemberCanBeInternal>
+      <UnusedAutoPropertyAccessor.Local>SUGGESTION</UnusedAutoPropertyAccessor.Local>
+      <UnusedAutoPropertyAccessor.Global>HINT</UnusedAutoPropertyAccessor.Global>
+      <ClassNeverInstantiated.Local>HINT</ClassNeverInstantiated.Local>
+      <EventNeverSubscribedTo.Global>HINT</EventNeverSubscribedTo.Global>
+      <UnusedMember.Global>HINT</UnusedMember.Global>
+      <StyleCop.SA1633>DO_NOT_SHOW</StyleCop.SA1633>
+    </SeverityTable>
+  </HighlightingSettings>
+  <MetadataViewerSettings ShowNonVisibleMembers="False" ShowXmlDoc="True" ReorderMembers="True" DecompileMethodBodies="True" Language="CSHARP" />
+  <ExternalSourcesSettings NavigationMode="Sources" FirstTimeFormShown-2="True" />
+  <Pdb EnableDownloading="True" UseDebugInformationForNavigation="True" />
+  <LiveTemplatesManager>
+    <UserTemplates>
+      <Template uid="14ac195a-dbc3-4d6e-a423-db31d57291c4" shortcut="dp" description="DependencyProperty" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;see cref=&quot;$NAME$&quot; /&gt; dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property =&#xD;&#xA;	DependencyProperty.Register(&quot;$NAME$&quot;, typeof($TYPE$), typeof($OWNERTYPE$), $DEFAULT$);&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets or sets the $DESCRIPTION$. This is a dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $TYPE$ $NAME$&#xD;&#xA;{&#xD;&#xA;	get &#xD;&#xA;	{ &#xD;&#xA;		return ($TYPE$)GetValue($NAME$Property); &#xD;&#xA;	}&#xD;&#xA;&#xD;&#xA;	set &#xD;&#xA;	{ &#xD;&#xA;		SetValue($NAME$Property, value); &#xD;&#xA;	}&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="1" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0&quot;)" initialRange="0" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="DESCRIPTION" expression="decapitalize(NAME)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="6138b63b-7624-48c2-80d1-07c902aef128" shortcut="dpac" description="Attached DependencyProperty with ChangedCallback" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;c&gt;$NAME$&lt;/c&gt; attached property. This property indicates $DESCRIPTION$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property =&#xD;&#xA;    DependencyProperty.RegisterAttached(&quot;$NAME$&quot;, typeof($TYPE$), typeof($OWNERTYPE$), new PropertyMetadata($DEFAULT$, On$NAME$Changed));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Sets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property to a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element to which the attached property is written.&lt;/param&gt;&#xD;&#xA;/// &lt;param name=&quot;value&quot;&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value to set.&lt;/param&gt;&#xD;&#xA;public static void Set$NAME$($ELEMENT$ element, $TYPE$ value)&#xD;&#xA;{&#xD;&#xA;    element.SetValue($NAME$Property, value);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property  for a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element from which the property value is read.&lt;/param&gt;&#xD;&#xA;/// &lt;returns&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value for the element.&lt;/returns&gt;&#xD;&#xA;public static $TYPE$ Get$NAME$($ELEMENT$ element)&#xD;&#xA;{&#xD;&#xA;    return ($TYPE$)element.GetValue($NAME$Property);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;private static void On$NAME$Changed(DependencyObject sender, DependencyPropertyChangedEventArgs e)&#xD;&#xA;{&#xD;&#xA;    throw new NotImplementedException();&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0d&quot;)" initialRange="0" />
+          <Variable name="ELEMENT" expression="constant(&quot;DependencyObject&quot;)" initialRange="1" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="DESCRIPTION" expression="constant(&quot;...&quot;)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="28afdb53-932d-44cf-9bd2-dcb2a38ff432" shortcut="dpaf" description="Attached DependencyProperty Framework" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;c&gt;$NAME$&lt;/c&gt; attached property. This property indicates $DESCRIPTION$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property = DependencyProperty.RegisterAttached(&#xD;&#xA;	&quot;$NAME$&quot;, &#xD;&#xA;	typeof($TYPE$), &#xD;&#xA;	typeof($OWNERTYPE$), &#xD;&#xA;	new FrameworkPropertyMetadata($DEFAULT$, FrameworkPropertyMetadataOptions.$OPTIONS$));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Sets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property to a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element to which the attached property is written.&lt;/param&gt;&#xD;&#xA;/// &lt;param name=&quot;value&quot;&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value to set.&lt;/param&gt;&#xD;&#xA;public static void Set$NAME$($ELEMENT$ element, $TYPE$ value)&#xD;&#xA;{&#xD;&#xA;    element.SetValue($NAME$Property, value);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property  for a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element from which the property value is read.&lt;/param&gt;&#xD;&#xA;/// &lt;returns&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value for the element.&lt;/returns&gt;&#xD;&#xA;public static $TYPE$ Get$NAME$($ELEMENT$ element)&#xD;&#xA;{&#xD;&#xA;    return ($TYPE$)element.GetValue($NAME$Property);&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0&quot;)" initialRange="0" />
+          <Variable name="OPTIONS" expression="constant(&quot;None&quot;)" initialRange="0" />
+          <Variable name="ELEMENT" expression="constant(&quot;DependencyObject&quot;)" initialRange="1" />
+          <Variable name="DESCRIPTION" expression="constant(&quot;...&quot;)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="f7783668-4447-47fe-8810-3b242ad1a83b" shortcut="dpafc" description="Attached DependencyProperty Framework Options Changed" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;c&gt;$NAME$&lt;/c&gt; attached property. This property indicates $DESCRIPTION$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property = DependencyProperty.RegisterAttached(&#xD;&#xA;	&quot;$NAME$&quot;, &#xD;&#xA;	typeof($TYPE$), &#xD;&#xA;	typeof($OWNERTYPE$), &#xD;&#xA;	new FrameworkPropertyMetadata($DEFAULT$, FrameworkPropertyMetadataOptions.$OPTIONS$, On$NAME$Changed));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Sets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property to a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element to which the attached property is written.&lt;/param&gt;&#xD;&#xA;/// &lt;param name=&quot;value&quot;&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value to set.&lt;/param&gt;&#xD;&#xA;public static void Set$NAME$($ELEMENT$ element, $TYPE$ value)&#xD;&#xA;{&#xD;&#xA;    element.SetValue($NAME$Property, value);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets the value of the &lt;c&gt;$NAME$&lt;/c&gt; attached property  for a specified &lt;see cref=&quot;$ELEMENT$&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;element&quot;&gt;The element from which the property value is read.&lt;/param&gt;&#xD;&#xA;/// &lt;returns&gt;The &lt;c&gt;$NAME$&lt;/c&gt; property value for the element.&lt;/returns&gt;&#xD;&#xA;public static $TYPE$ Get$NAME$($ELEMENT$ element)&#xD;&#xA;{&#xD;&#xA;    return ($TYPE$)element.GetValue($NAME$Property);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;private static void On$NAME$Changed(DependencyObject sender, DependencyPropertyChangedEventArgs e)&#xD;&#xA;{&#xD;&#xA;    throw new NotImplementedException();&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0&quot;)" initialRange="0" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="OPTIONS" expression="constant(&quot;None&quot;)" initialRange="0" />
+          <Variable name="ELEMENT" expression="constant(&quot;DependencyObject&quot;)" initialRange="1" />
+          <Variable name="DESCRIPTION" expression="constant(&quot;...&quot;)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="5fa6d1e8-c537-46e2-9ceb-a9bbff4cf377" shortcut="dpc" description="DependencyProperty PropertyChanged" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;see cref=&quot;$NAME$&quot; /&gt; dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property =&#xD;&#xA;	DependencyProperty.Register(&quot;$NAME$&quot;, typeof ($TYPE$), typeof ($OWNERTYPE$), new PropertyMetadata($DEFAULT$, On$NAME$Changed));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets or sets the $DESCRIPTION$. This is a dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $TYPE$ $NAME$&#xD;&#xA;{&#xD;&#xA;	get &#xD;&#xA;	{ &#xD;&#xA;		return ($TYPE$) GetValue($NAME$Property); &#xD;&#xA;	}&#xD;&#xA;&#xD;&#xA;	set &#xD;&#xA;	{ &#xD;&#xA;		SetValue($NAME$Property, value); &#xD;&#xA;	}&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;private static void On$NAME$Changed(DependencyObject sender, DependencyPropertyChangedEventArgs e)&#xD;&#xA;{&#xD;&#xA;    throw new NotImplementedException();&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0&quot;)" initialRange="0" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="DESCRIPTION" expression="decapitalize(NAME)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="2b20e033-3a21-4288-884d-cc8129344864" shortcut="dpf" description="DependencyProperty Framework" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;see cref=&quot;$NAME$&quot; /&gt; dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $NAME$Property = DependencyProperty.Register(&#xD;&#xA;	&quot;$NAME$&quot;, &#xD;&#xA;	typeof($TYPE$), &#xD;&#xA;	typeof($OWNERTYPE$), &#xD;&#xA;	new FrameworkPropertyMetadata($DEFAULT$, FrameworkPropertyMetadataOptions.$OPTIONS$));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets or sets the $DESCRIPTION$. This is a dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $TYPE$ $NAME$&#xD;&#xA;{&#xD;&#xA;	get&#xD;&#xA;	{ &#xD;&#xA;		return ($TYPE$)GetValue($NAME$Property); &#xD;&#xA;	}&#xD;&#xA;&#xD;&#xA;	set &#xD;&#xA;	{ &#xD;&#xA;		SetValue($NAME$Property, value); &#xD;&#xA;	}&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="NAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="0" />
+          <Variable name="DEFAULT" expression="constant(&quot;0.0&quot;)" initialRange="0" />
+          <Variable name="OWNERTYPE" expression="typeName()" initialRange="-1" />
+          <Variable name="OPTIONS" expression="constant(&quot;None&quot;)" initialRange="0" />
+          <Variable name="DESCRIPTION" expression="decapitalize(NAME)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="032aab7d-88a3-4f36-8f0a-3c8fb1ea541b" shortcut="propc" description="Property with backingfield and changed event" text="private $TYPE$ $FIELDNAME$;&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Occurs when the &lt;see cref=&quot;$PROPERTYNAME$&quot;/&gt; property changed.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public event EventHandler $PROPERTYNAME$Changed;&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets or sets the $DESCRIPTION$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $TYPE$ $PROPERTYNAME$&#xD;&#xA;{&#xD;&#xA;    get&#xD;&#xA;    {&#xD;&#xA;        return this.$FIELDNAME$;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    set&#xD;&#xA;    {&#xD;&#xA;        if (this.$FIELDNAME$ == value)&#xD;&#xA;        {&#xD;&#xA;            return;&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        this.$FIELDNAME$ = value;&#xD;&#xA;        if (this.$PROPERTYNAME$Changed != null)&#xD;&#xA;        {&#xD;&#xA;            this.$PROPERTYNAME$Changed(this, EventArgs.Empty);&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="PROPERTYNAME" expression="" initialRange="2" />
+          <Variable name="TYPE" expression="" initialRange="1" />
+          <Variable name="FIELDNAME" expression="decapitalize(PROPERTYNAME)" initialRange="-1" />
+          <Variable name="DESCRIPTION" expression="decapitalize(PROPERTYNAME)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="5b033675-ae40-4d69-8ae3-2d7054e5debb" shortcut="disp" description="implements the disposable pattern" text=" private bool disposed;&#xD;&#xA;&#xD;&#xA; /// &lt;summary&gt;&#xD;&#xA; /// 	Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;&#xA; /// &lt;/summary&gt;&#xD;&#xA; public void Dispose()&#xD;&#xA; {&#xD;&#xA;     this.Dispose(true);&#xD;&#xA;     GC.SuppressFinalize(this);&#xD;&#xA; }&#xD;&#xA;&#xD;&#xA; /// &lt;summary&gt;&#xD;&#xA; ///     Releases unmanaged and - optionally - managed resources&#xD;&#xA; /// &lt;/summary&gt;&#xD;&#xA; /// &lt;param name=&quot;disposing&quot;&gt;&#xD;&#xA; ///     &lt;c&gt;true&lt;/c&gt; to release both managed and unmanaged resources; &lt;c&gt;false&lt;/c&gt; to release only unmanaged resources.&#xD;&#xA; /// &lt;/param&gt;&#xD;&#xA; protected virtual void Dispose(bool disposing)&#xD;&#xA; {&#xD;&#xA;     // TODO: add a lock around everything here and around methods where resources are used&#xD;&#xA;     if (!this.disposed)&#xD;&#xA;     {&#xD;&#xA;         if (disposing)&#xD;&#xA;         {&#xD;&#xA;             $DISPOSEMANAGEDRESOURCES$&#xD;&#xA;         }&#xD;&#xA;&#xD;&#xA;         // TODO: nullify resources here&#xD;&#xA;         // TODO: dispose unmanaged resources here&#xD;&#xA;         this.disposed = true;&#xD;&#xA;     }&#xD;&#xA; }" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="DISPOSEMANAGEDRESOURCES" expression="constant(&quot;// TODO: dispose managed resources here&quot;)" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="0291df15-d952-4ac1-836c-fb72c3f76f3b" shortcut="cctor" description="Static Constructor" text="/// &lt;summary&gt;&#xD;&#xA;/// Initializes the &lt;see cref=&quot;$CLASSNAME$&quot;/&gt; class.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;static $CLASSNAME$()&#xD;&#xA;{$END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Expression, TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="CLASSNAME" expression="typeName()" initialRange="-1" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="44259940-6bfe-430f-ba8f-df44d695399f" shortcut="spec" description="" text="[Subject(typeof($Type$))]&#xD;&#xA;public class When_$Context$&#xD;&#xA;{&#xD;&#xA;	Establish context = () =&gt; { $END$ };&#xD;&#xA;&#xD;&#xA;	Because of = () =&gt; { };&#xD;&#xA;&#xD;&#xA;	It should_ = () =&gt; { };&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeAndNamespace" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="MSpec" />
+        </Categories>
+        <Variables>
+          <Variable name="Type" expression="complete()" initialRange="0" />
+          <Variable name="Context" expression="" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="8a5be1eb-9c71-466c-9432-b605d932fb40" shortcut="l" description="Lambda expression" text="()=&gt;$END$;" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Expression" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="Lambdas" />
+        </Categories>
+        <Variables />
+        <CustomProperties />
+      </Template>
+      <Template uid="a354a3aa-9e2a-4cf3-846c-4d111cf09aa5" shortcut="ll" description="Long lambda expression" text="()=&gt;{$END$};" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Expression" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="Lambdas" />
+        </Categories>
+        <Variables />
+        <CustomProperties />
+      </Template>
+      <Template uid="d3047eca-e90c-4605-a1d4-0593aaed4cf2" shortcut="it" description="" text="It should_$observation$ = () =&gt; { $END$ };" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="MSpec" />
+        </Categories>
+        <Variables>
+          <Variable name="observation" expression="" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="2afe0e54-2936-43b8-9c3c-9a79c075a861" shortcut="bec" description="" text="Because of = () =&gt; { $END$ };" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="MSpec" />
+        </Categories>
+        <Variables />
+        <CustomProperties />
+      </Template>
+      <Template uid="f0a9f4e1-aebd-46df-856c-97dda258a0eb" shortcut="fail" description="" text="It should_fail =&#xD;&#xA;	() =&gt; Exception.ShouldNotBeNull();&#xD;&#xA;&#xD;&#xA;static Exception Exception;" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="MSpec" />
+        </Categories>
+        <Variables />
+        <CustomProperties />
+      </Template>
+      <Template uid="214033bd-1df9-463c-86d4-80b8e2c63f64" shortcut="est" description="" text="Establish context = () =&gt; { $END$ };" reformat="False" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="MSpec" />
+        </Categories>
+        <Variables />
+        <CustomProperties />
+      </Template>
+      <Template uid="f8396f66-72c9-42af-a97e-2ee61b8dc20a" shortcut="vmp" description="ViewModel Property with change notification" text="private $TYPE$ $FIELDNAME$;&#xD;&#xA;&#xD;&#xA;public $TYPE$ $PROPERTYNAME$&#xD;&#xA;{&#xD;&#xA;    get&#xD;&#xA;    {&#xD;&#xA;        return this.$FIELDNAME$;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    set&#xD;&#xA;    {&#xD;&#xA;        if (this.$FIELDNAME$ != value)&#xD;&#xA;        {&#xD;&#xA;            this.$FIELDNAME$ = value;&#xD;&#xA;            this.NotifyPropertyChange(() =&gt; this.$PROPERTYNAME$);&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="TYPE" expression="" initialRange="1" />
+          <Variable name="PROPERTYNAME" expression="" initialRange="0" />
+          <Variable name="FIELDNAME" expression="decapitalize(PROPERTYNAME)" initialRange="-1" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+    </UserTemplates>
+    <PredefinedChanges>
+      <Changed />
+    </PredefinedChanges>
+    <FileTemplates />
+    <DisabledTemplates />
+  </LiveTemplatesManager>
+  <SurroundManager>
+    <QuickLists>
+      <QuickList name="Other Files">
+        <Removed />
+      </QuickList>
+      <QuickList name="C# files">
+        <TemplateReference uid="d00002ec-552b-43a7-855a-4d9056bc5e44" name="if" />
+        <TemplateReference uid="0d6efb3f-0a28-49ac-a840-a5c18a10820c" name="while" />
+        <TemplateReference uid="38772f22-c779-4535-87ae-f2cbfc28d8bb" name="for" />
+        <TemplateReference uid="3e5873f5-71b2-4323-a98d-c864e3553e95" name="do..while" />
+        <TemplateReference uid="539867cb-c2bb-4a76-9be4-43499424a817" name="#region" />
+        <TemplateReference uid="bf9aa46f-cf30-446c-80d3-943eade77764" name="#if..#endif" />
+        <TemplateReference uid="5525b896-5c99-477c-aa55-871b4e64d487" name="{}" />
+        <TemplateReference uid="2c7fbadc-e259-40d3-9346-89277c463fdc" name="try..catch" />
+        <TemplateReference uid="03562c81-32c2-43e8-95f2-ccae5fce50fc" name="try..finally" />
+        <TemplateReference uid="2cdb716b-61fd-4a31-b148-2052fa256b96" name="cast" />
+        <TemplateReference uid="d1a7844c-e289-438a-aa26-31bbe4694112" name="tag" />
+        <TemplateReference uid="bfed504b-c6a2-492a-8098-6067ce44f7ca" name="lock" />
+        <TemplateReference uid="ce403579-55e1-4d4d-869c-de09fe5bf5a5" name="namespace" />
+        <TemplateReference uid="2025ca6a-c03e-4da6-ab1b-a4e6c572a94a" name="()" />
+        <TemplateReference uid="47f8a3f0-32ad-4252-864c-9b7617b40a0c" name="Catch.Exception" />
+        <Removed />
+      </QuickList>
+      <QuickList name="Visual Basic files">
+        <TemplateReference uid="6a01b8ff-4981-4873-9bc3-bf8e1c434865" name="If" />
+        <TemplateReference uid="389a11c8-54d3-4e96-9b10-0d6736b93044" name="If..Else" />
+        <TemplateReference uid="8c6134b0-b6f4-48a3-a5bc-3878f9a96f04" name="SyncLock" />
+        <TemplateReference uid="ab9b078f-4a86-45d8-b5fb-e27910cbb720" name="Using" />
+        <TemplateReference uid="9ee3a98e-24ed-4993-98ae-ac77c05bc93f" name="CType" />
+        <TemplateReference uid="c4d6ceb3-d45f-4d8e-838d-d1e64a1f671b" name="DirectCast" />
+        <TemplateReference uid="c5765f81-208e-4342-9e83-460d2906a8f5" name="TryCast" />
+        <Removed />
+      </QuickList>
+      <QuickList name="XML files">
+        <TemplateReference uid="c44a28a4-c56c-4ff4-b8db-9b563ae61b01" name="using" />
+        <Removed />
+      </QuickList>
+      <QuickList name="HTML files">
+        <TemplateReference uid="db3304b5-a0fe-433f-a745-2407f990073e" name="tag" />
+        <TemplateReference uid="8600f923-3358-4842-acb7-2588dbc8e506" name="link" />
+        <Removed />
+      </QuickList>
+      <QuickList name="ASP.NET files">
+        <TemplateReference uid="db3304b5-a0fe-433f-a745-2407f990073e" name="tag" />
+        <TemplateReference uid="8600f923-3358-4842-acb7-2588dbc8e506" name="link" />
+        <TemplateReference uid="02e32ab5-abf1-4580-8c6c-a122642f941e" name="foreach" />
+        <TemplateReference uid="68c3e345-0a7d-41cf-93ec-de9b0334be7e" name="foreach" />
+        <Removed />
+      </QuickList>
+      <QuickList name="JavaScript files">
+        <TemplateReference uid="5770bced-c0f9-4757-bff7-11aa644094cb" name="" />
+        <TemplateReference uid="bce7a3a4-3a36-4fc5-b722-a94a7879704b" name="" />
+        <Removed />
+      </QuickList>
+      <QuickList name="Other files">
+        <Removed />
+      </QuickList>
+      <QuickList name="Resx files">
+        <Removed />
+      </QuickList>
+      <QuickList name="Razor files">
+        <Removed />
+      </QuickList>
+    </QuickLists>
+    <UserTemplates>
+      <Template uid="47f8a3f0-32ad-4252-864c-9b7617b40a0c" shortcut="" description="Catch.Exception" text="exception = Catch.Exception(() =&gt; { $SELECTION$ });" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Statement" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories />
+        <Variables />
+        <CustomProperties />
+      </Template>
+    </UserTemplates>
+    <PredefinedChanges>
+      <Changed />
+    </PredefinedChanges>
+    <FileTemplates />
+  </SurroundManager>
+  <FileTemplatesManager>
+    <QuickLists>
+      <QuickList name="Other Projects">
+        <Removed />
+      </QuickList>
+      <QuickList name="C# projects">
+        <TemplateReference uid="560aab2c-307f-4c70-a99a-a3ec249e3153" name="Class" />
+        <TemplateReference uid="3667aa6f-7d24-4446-89df-536819a6d103" name="Interface" />
+        <TemplateReference uid="d03eb89b-79ff-472e-baab-217c25589c77" name="Struct" />
+        <TemplateReference uid="30ac107b-32b0-4f0a-95a3-763001e1dbf6" name="Enum" />
+        <TemplateReference uid="a1a3acef-a401-4ba3-87fc-ba8be9d126e7" name="EquipmmentNode ViewModel" />
+        <TemplateReference uid="2d816d0d-9d54-422f-a7f6-e3c31dce81aa" name="EquipmentNode Model" />
+        <TemplateReference uid="a5a7ba3a-1b99-4292-943b-1b2a92f50ece" name="ViewModel Model Wrapper" />
+        <TemplateReference uid="f98639e9-107d-40a4-82d0-de07afb1360f" name="Spec" />
+        <Removed />
+      </QuickList>
+      <QuickList name="Visual Basic projects">
+        <TemplateReference uid="b1ee1e2c-928e-43dd-97a7-2cd7e208d02e" name="Class" />
+        <TemplateReference uid="797a996f-97ef-4788-a0a6-0eb6e4f7e99e" name="Interface" />
+        <TemplateReference uid="3a76e258-e766-40f6-a093-00c04f653a65" name="Structure" />
+        <TemplateReference uid="7899541c-0e97-4670-8034-04bcc3b1ff03" name="Enum" />
+        <TemplateReference uid="2a5b7d0d-34bc-4537-a50a-b2e94d885702" name="Module" />
+        <Removed />
+      </QuickList>
+      <QuickList name="ASP.NET (C#) projects">
+        <TemplateReference uid="33b864ee-57c8-41d4-8935-e4c52774fca2" name="Web form without master page" />
+        <TemplateReference uid="4ae22a01-d37a-4407-8cf6-ef841f7dcab6" name="Web form with master page" />
+        <TemplateReference uid="d602a016-05af-48b6-bbfb-bb2ac28d13a6" name="Master page without base master page" />
+        <TemplateReference uid="a1b0a253-d992-43b7-9673-2c1f6f7fca7f" name="Master page with base master page" />
+        <TemplateReference uid="ef7287d8-1fd7-460f-9855-c2ee3cdf5ee4" name="Web control" />
+        <Removed />
+      </QuickList>
+      <QuickList name="ASP.NET (VB.NET) projects">
+        <TemplateReference uid="fee25fcf-ac69-4449-bb6c-55369553c527" name="Web form without master page" />
+        <TemplateReference uid="16e0ecb6-672c-484c-994c-86d57e73e343" name="Web form with master page" />
+        <TemplateReference uid="56c19cde-128d-438d-8c64-3b5380508d3d" name="Master page without base master page" />
+        <TemplateReference uid="672311b7-067e-4a57-b32f-79c7a06fa74f" name="Master page with base master page" />
+        <TemplateReference uid="6553602b-0f80-4ada-9b76-95055c0a747f" name="Web control" />
+        <Removed />
+      </QuickList>
+      <QuickList name="Razor (C#) projects">
+        <TemplateReference uid="28930f00-63d1-49ef-9108-d49218df0568" name="Razor MVC View" />
+        <TemplateReference uid="259949c3-530e-41ff-b0a8-6ba5c123b7b6" name="Razor MVC View with Layout" />
+        <TemplateReference uid="2bad39df-7bf3-44d5-8d98-1614a5ffef92" name="Razor MVC Partial View" />
+        <Removed />
+      </QuickList>
+    </QuickLists>
+    <UserTemplates>
+      <Template uid="f98639e9-107d-40a4-82d0-de07afb1360f" shortcut="" description="Spec" text="namespace $Namespace$&#xD;&#xA;{&#xD;&#xA;	using Machine.Specifications;&#xD;&#xA;	&#xD;&#xA;	[Subject(typeof($Type$))]&#xD;&#xA;	public class When_$Context$&#xD;&#xA;	{&#xD;&#xA;		Establish context = () =&gt; { $END$ };&#xD;&#xA;&#xD;&#xA;		Because of = () =&gt; { };&#xD;&#xA;&#xD;&#xA;		It should_ = () =&gt; { };&#xD;&#xA;	}&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <ProjectLanguageContext language="CSharp" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="Namespace" expression="fileDefaultNamespace()" initialRange="-1" />
+          <Variable name="Type" expression="" initialRange="0" />
+          <Variable name="Context" expression="" initialRange="0" />
+        </Variables>
+        <CustomProperties>
+          <Property key="FileName" value="Specs" />
+          <Property key="Extension" value="cs" />
+          <Property key="ValidateFileName" value="True" />
+        </CustomProperties>
+      </Template>
+    </UserTemplates>
+    <PredefinedChanges>
+      <Changed />
+    </PredefinedChanges>
+    <FileTemplates />
+  </FileTemplatesManager>
+  <TodoManager ActiveGrouping="8">
+    <Pattern Name="Todo" Id="961894CCC510410ABE2B99132B253C80" Regexp="(\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" CaseSensitive="False" Color="Blue" Icon="Normal" LookInComments="True" LookInIdentifiers="False" LookInStringLiterals="False" />
+    <Pattern Name="Note" Id="961894CCC510410ABE2B99132B253C81" Regexp="(\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" CaseSensitive="False" Color="ffff8000" Icon="Warning" LookInComments="True" LookInIdentifiers="False" LookInStringLiterals="False" />
+    <Pattern Name="Bug" Id="9F4E80481F12431CB36D19D6738780F1" Regexp="(\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" CaseSensitive="False" Color="Red" Icon="Error" LookInComments="True" LookInIdentifiers="False" LookInStringLiterals="False" />
+    <Pattern Name="Not Implemented" Id="9F4E80481F12431CB36D19D6738780F2" Regexp="NotImplementedException" CaseSensitive="False" Color="Red" Icon="Edit" LookInComments="False" LookInIdentifiers="True" LookInStringLiterals="False" />
+    <Filter Name="Todos" Id="6E3EB9662CFB491EBD2103D8654051DF" Active="False">
+      <PatternRef Id="961894CCC510410ABE2B99132B253C80" />
+    </Filter>
+    <Filter Name="Notes" Id="0069D9FE451E44B181256291430424FC" Active="False">
+      <PatternRef Id="961894CCC510410ABE2B99132B253C81" />
+    </Filter>
+    <Filter Name="Bugs" Id="A674BC0145094E3D8C9C867C0FDAF288" Active="False">
+      <PatternRef Id="9F4E80481F12431CB36D19D6738780F1" />
+    </Filter>
+    <Filter Name="Not Implemented" Id="A674BC0145094E3D8C9C867C0FDAF289" Active="False">
+      <PatternRef Id="9F4E80481F12431CB36D19D6738780F2" />
+    </Filter>
+  </TodoManager>
+  <ExceptionReporting>
+    <UserName>
+    </UserName>
+    <Password>E.FVL8jaRtGis=</Password>
+    <Anonymous>False</Anonymous>
+  </ExceptionReporting>
+  <DefaultTextControlSchemeManager>
+    <CaretRow>True</CaretRow>
+  </DefaultTextControlSchemeManager>
+  <CodeCleanup SilentCleanup="StyleCop" RecentlyUsed="Complete">
+    <Profile name="Complete">
+      <AspOptimizeRegisterDirectives>False</AspOptimizeRegisterDirectives>
+      <HtmlReformatCode>False</HtmlReformatCode>
+      <CSArrangeThisQualifier>True</CSArrangeThisQualifier>
+      <CSRemoveCodeRedundancies>True</CSRemoveCodeRedundancies>
+      <CSUseAutoProperty>True</CSUseAutoProperty>
+      <CSMakeFieldReadonly>True</CSMakeFieldReadonly>
+      <CSUseVar>
+        <BehavourStyle>CAN_CHANGE_TO_IMPLICIT</BehavourStyle>
+        <LocalVariableStyle>ALWAYS_IMPLICIT</LocalVariableStyle>
+        <ForeachVariableStyle>ALWAYS_IMPLICIT</ForeachVariableStyle>
+      </CSUseVar>
+      <CSUpdateFileHeader>False</CSUpdateFileHeader>
+      <VBOptimizeImports>True</VBOptimizeImports>
+      <VBShortenReferences>True</VBShortenReferences>
+      <JsInsertSemicolon>False</JsInsertSemicolon>
+      <JsReformatCode>False</JsReformatCode>
+      <CssReformatCode>False</CssReformatCode>
+      <XMLReformatCode>True</XMLReformatCode>
+      <CSOptimizeUsings>
+        <OptimizeUsings>True</OptimizeUsings>
+        <EmbraceInRegion>False</EmbraceInRegion>
+        <RegionName>
+        </RegionName>
+      </CSOptimizeUsings>
+      <CSShortenReferences>True</CSShortenReferences>
+      <VBReformatCode>True</VBReformatCode>
+      <CSReformatCode>True</CSReformatCode>
+      <CSharpFormatDocComments>True</CSharpFormatDocComments>
+      <CSReorderTypeMembers>True</CSReorderTypeMembers>
+      <StyleCop.Documentation>
+        <SA1600ElementsMustBeDocumented>False</SA1600ElementsMustBeDocumented>
+        <SA1604ElementDocumentationMustHaveSummary>True</SA1604ElementDocumentationMustHaveSummary>
+        <SA1609PropertyDocumentationMustHaveValueDocumented>True</SA1609PropertyDocumentationMustHaveValueDocumented>
+        <SA1611ElementParametersMustBeDocumented>True</SA1611ElementParametersMustBeDocumented>
+        <SA1615ElementReturnValueMustBeDocumented>True</SA1615ElementReturnValueMustBeDocumented>
+        <SA1617VoidReturnValueMustNotBeDocumented>True</SA1617VoidReturnValueMustNotBeDocumented>
+        <SA1618GenericTypeParametersMustBeDocumented>True</SA1618GenericTypeParametersMustBeDocumented>
+        <SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>True</SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>
+        <SA1628DocumentationTextMustBeginWithACapitalLetter>True</SA1628DocumentationTextMustBeginWithACapitalLetter>
+        <SA1629DocumentationTextMustEndWithAPeriod>True</SA1629DocumentationTextMustEndWithAPeriod>
+        <SA1633SA1641UpdateFileHeader>Ignore</SA1633SA1641UpdateFileHeader>
+        <SA1639FileHeaderMustHaveSummary>False</SA1639FileHeaderMustHaveSummary>
+        <SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>True</SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1643DestructorSummaryDocumentationMustBeginWithStandardText>True</SA1643DestructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1644DocumentationHeadersMustNotContainBlankLines>True</SA1644DocumentationHeadersMustNotContainBlankLines>
+      </StyleCop.Documentation>
+      <StyleCop.Layout>
+        <SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>True</SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>
+        <SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>True</SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>
+        <SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>True</SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>
+        <SA1511WhileDoFooterMustNotBePrecededByBlankLine>True</SA1511WhileDoFooterMustNotBePrecededByBlankLine>
+        <SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>True</SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>
+        <SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>True</SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>
+        <SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>True</SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>
+        <SA1515SingleLineCommentMustBeProceededByBlankLine>True</SA1515SingleLineCommentMustBeProceededByBlankLine>
+      </StyleCop.Layout>
+      <StyleCop.Maintainability>
+        <SA1119StatementMustNotUseUnnecessaryParenthesis>True</SA1119StatementMustNotUseUnnecessaryParenthesis>
+      </StyleCop.Maintainability>
+      <StyleCop.Ordering>
+        <AlphabeticalUsingDirectives>Alphabetical</AlphabeticalUsingDirectives>
+        <ExpandUsingDirectives>FullyQualify</ExpandUsingDirectives>
+        <SA1212PropertyAccessorsMustFollowOrder>True</SA1212PropertyAccessorsMustFollowOrder>
+        <SA1213EventAccessorsMustFollowOrder>True</SA1213EventAccessorsMustFollowOrder>
+      </StyleCop.Ordering>
+      <StyleCop.Readability>
+        <SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>True</SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>
+        <SA1106CodeMustNotContainEmptyStatements>True</SA1106CodeMustNotContainEmptyStatements>
+        <SA1108BlockStatementsMustNotContainEmbeddedComments>True</SA1108BlockStatementsMustNotContainEmbeddedComments>
+        <SA1109BlockStatementsMustNotContainEmbeddedRegions>True</SA1109BlockStatementsMustNotContainEmbeddedRegions>
+        <SA1120CommentsMustContainText>True</SA1120CommentsMustContainText>
+        <SA1121UseBuiltInTypeAlias>True</SA1121UseBuiltInTypeAlias>
+        <SA1122UseStringEmptyForEmptyStrings>True</SA1122UseStringEmptyForEmptyStrings>
+        <SA1123DoNotPlaceRegionsWithinElements>True</SA1123DoNotPlaceRegionsWithinElements>
+        <SA1124CodeMustNotContainEmptyRegions>True</SA1124CodeMustNotContainEmptyRegions>
+      </StyleCop.Readability>
+      <StyleCop.Spacing>
+        <SA1001CommasMustBeSpacedCorrectly>True</SA1001CommasMustBeSpacedCorrectly>
+        <SA1005SingleLineCommentsMustBeginWithSingleSpace>True</SA1005SingleLineCommentsMustBeginWithSingleSpace>
+        <SA1006PreprocessorKeywordsMustNotBePrecededBySpace>True</SA1006PreprocessorKeywordsMustNotBePrecededBySpace>
+        <SA1021NegativeSignsMustBeSpacedCorrectly>True</SA1021NegativeSignsMustBeSpacedCorrectly>
+        <SA1022PositiveSignsMustBeSpacedCorrectly>True</SA1022PositiveSignsMustBeSpacedCorrectly>
+        <SA1025CodeMustNotContainMultipleWhitespaceInARow>True</SA1025CodeMustNotContainMultipleWhitespaceInARow>
+      </StyleCop.Spacing>
+    </Profile>
+    <Profile name="MSpec Tests">
+      <AspOptimizeRegisterDirectives>False</AspOptimizeRegisterDirectives>
+      <HtmlReformatCode>False</HtmlReformatCode>
+      <CSArrangeThisQualifier>False</CSArrangeThisQualifier>
+      <CSRemoveCodeRedundancies>True</CSRemoveCodeRedundancies>
+      <CSUseAutoProperty>True</CSUseAutoProperty>
+      <CSMakeFieldReadonly>True</CSMakeFieldReadonly>
+      <CSUseVar>
+        <BehavourStyle>CAN_CHANGE_TO_IMPLICIT</BehavourStyle>
+        <LocalVariableStyle>ALWAYS_IMPLICIT</LocalVariableStyle>
+        <ForeachVariableStyle>ALWAYS_IMPLICIT</ForeachVariableStyle>
+      </CSUseVar>
+      <CSUpdateFileHeader>False</CSUpdateFileHeader>
+      <VBOptimizeImports>False</VBOptimizeImports>
+      <VBShortenReferences>False</VBShortenReferences>
+      <JsInsertSemicolon>False</JsInsertSemicolon>
+      <JsReformatCode>False</JsReformatCode>
+      <CssReformatCode>False</CssReformatCode>
+      <XMLReformatCode>True</XMLReformatCode>
+      <CSOptimizeUsings>
+        <OptimizeUsings>True</OptimizeUsings>
+        <EmbraceInRegion>False</EmbraceInRegion>
+        <RegionName>
+        </RegionName>
+      </CSOptimizeUsings>
+      <CSShortenReferences>True</CSShortenReferences>
+      <VBReformatCode>False</VBReformatCode>
+      <CSReformatCode>True</CSReformatCode>
+      <CSharpFormatDocComments>True</CSharpFormatDocComments>
+      <CSReorderTypeMembers>False</CSReorderTypeMembers>
+      <StyleCop.Documentation>
+        <SA1600ElementsMustBeDocumented>False</SA1600ElementsMustBeDocumented>
+        <SA1604ElementDocumentationMustHaveSummary>True</SA1604ElementDocumentationMustHaveSummary>
+        <SA1609PropertyDocumentationMustHaveValueDocumented>False</SA1609PropertyDocumentationMustHaveValueDocumented>
+        <SA1611ElementParametersMustBeDocumented>True</SA1611ElementParametersMustBeDocumented>
+        <SA1615ElementReturnValueMustBeDocumented>True</SA1615ElementReturnValueMustBeDocumented>
+        <SA1617VoidReturnValueMustNotBeDocumented>True</SA1617VoidReturnValueMustNotBeDocumented>
+        <SA1618GenericTypeParametersMustBeDocumented>True</SA1618GenericTypeParametersMustBeDocumented>
+        <SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>True</SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>
+        <SA1628DocumentationTextMustBeginWithACapitalLetter>True</SA1628DocumentationTextMustBeginWithACapitalLetter>
+        <SA1629DocumentationTextMustEndWithAPeriod>True</SA1629DocumentationTextMustEndWithAPeriod>
+        <SA1633SA1641UpdateFileHeader>Ignore</SA1633SA1641UpdateFileHeader>
+        <SA1639FileHeaderMustHaveSummary>True</SA1639FileHeaderMustHaveSummary>
+        <SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>True</SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1643DestructorSummaryDocumentationMustBeginWithStandardText>True</SA1643DestructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1644DocumentationHeadersMustNotContainBlankLines>True</SA1644DocumentationHeadersMustNotContainBlankLines>
+      </StyleCop.Documentation>
+      <StyleCop.Layout>
+        <SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>True</SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>
+        <SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>True</SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>
+        <SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>True</SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>
+        <SA1511WhileDoFooterMustNotBePrecededByBlankLine>True</SA1511WhileDoFooterMustNotBePrecededByBlankLine>
+        <SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>True</SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>
+        <SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>True</SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>
+        <SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>True</SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>
+        <SA1515SingleLineCommentMustBeProceededByBlankLine>True</SA1515SingleLineCommentMustBeProceededByBlankLine>
+      </StyleCop.Layout>
+      <StyleCop.Maintainability>
+        <SA1119StatementMustNotUseUnnecessaryParenthesis>True</SA1119StatementMustNotUseUnnecessaryParenthesis>
+      </StyleCop.Maintainability>
+      <StyleCop.Ordering>
+        <AlphabeticalUsingDirectives>Alphabetical</AlphabeticalUsingDirectives>
+        <ExpandUsingDirectives>FullyQualify</ExpandUsingDirectives>
+        <SA1212PropertyAccessorsMustFollowOrder>True</SA1212PropertyAccessorsMustFollowOrder>
+        <SA1213EventAccessorsMustFollowOrder>True</SA1213EventAccessorsMustFollowOrder>
+      </StyleCop.Ordering>
+      <StyleCop.Readability>
+        <SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>True</SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>
+        <SA1106CodeMustNotContainEmptyStatements>True</SA1106CodeMustNotContainEmptyStatements>
+        <SA1108BlockStatementsMustNotContainEmbeddedComments>True</SA1108BlockStatementsMustNotContainEmbeddedComments>
+        <SA1109BlockStatementsMustNotContainEmbeddedRegions>True</SA1109BlockStatementsMustNotContainEmbeddedRegions>
+        <SA1120CommentsMustContainText>True</SA1120CommentsMustContainText>
+        <SA1121UseBuiltInTypeAlias>True</SA1121UseBuiltInTypeAlias>
+        <SA1122UseStringEmptyForEmptyStrings>True</SA1122UseStringEmptyForEmptyStrings>
+        <SA1123DoNotPlaceRegionsWithinElements>True</SA1123DoNotPlaceRegionsWithinElements>
+        <SA1124CodeMustNotContainEmptyRegions>True</SA1124CodeMustNotContainEmptyRegions>
+      </StyleCop.Readability>
+      <StyleCop.Spacing>
+        <SA1001CommasMustBeSpacedCorrectly>True</SA1001CommasMustBeSpacedCorrectly>
+        <SA1005SingleLineCommentsMustBeginWithSingleSpace>True</SA1005SingleLineCommentsMustBeginWithSingleSpace>
+        <SA1006PreprocessorKeywordsMustNotBePrecededBySpace>True</SA1006PreprocessorKeywordsMustNotBePrecededBySpace>
+        <SA1021NegativeSignsMustBeSpacedCorrectly>True</SA1021NegativeSignsMustBeSpacedCorrectly>
+        <SA1022PositiveSignsMustBeSpacedCorrectly>True</SA1022PositiveSignsMustBeSpacedCorrectly>
+        <SA1025CodeMustNotContainMultipleWhitespaceInARow>True</SA1025CodeMustNotContainMultipleWhitespaceInARow>
+      </StyleCop.Spacing>
+    </Profile>
+    <Profile name="StyleCop">
+      <AspOptimizeRegisterDirectives>False</AspOptimizeRegisterDirectives>
+      <HtmlReformatCode>False</HtmlReformatCode>
+      <CSArrangeThisQualifier>True</CSArrangeThisQualifier>
+      <CSRemoveCodeRedundancies>False</CSRemoveCodeRedundancies>
+      <CSUseAutoProperty>False</CSUseAutoProperty>
+      <CSMakeFieldReadonly>False</CSMakeFieldReadonly>
+      <CSUseVar>
+        <BehavourStyle>DISABLED</BehavourStyle>
+        <LocalVariableStyle>IMPLICIT_WHEN_INITIALIZER_HAS_TYPE</LocalVariableStyle>
+        <ForeachVariableStyle>ALWAYS_EXPLICIT</ForeachVariableStyle>
+      </CSUseVar>
+      <CSUpdateFileHeader>False</CSUpdateFileHeader>
+      <VBOptimizeImports>False</VBOptimizeImports>
+      <VBShortenReferences>False</VBShortenReferences>
+      <JsInsertSemicolon>True</JsInsertSemicolon>
+      <JsReformatCode>False</JsReformatCode>
+      <CssReformatCode>False</CssReformatCode>
+      <XMLReformatCode>False</XMLReformatCode>
+      <CSOptimizeUsings>
+        <OptimizeUsings>True</OptimizeUsings>
+        <EmbraceInRegion>False</EmbraceInRegion>
+        <RegionName>
+        </RegionName>
+      </CSOptimizeUsings>
+      <CSShortenReferences>False</CSShortenReferences>
+      <VBReformatCode>False</VBReformatCode>
+      <CSReformatCode>True</CSReformatCode>
+      <CSharpFormatDocComments>True</CSharpFormatDocComments>
+      <CSReorderTypeMembers>True</CSReorderTypeMembers>
+      <StyleCop.Documentation>
+        <SA1600ElementsMustBeDocumented>True</SA1600ElementsMustBeDocumented>
+        <SA1604ElementDocumentationMustHaveSummary>True</SA1604ElementDocumentationMustHaveSummary>
+        <SA1609PropertyDocumentationMustHaveValueDocumented>True</SA1609PropertyDocumentationMustHaveValueDocumented>
+        <SA1611ElementParametersMustBeDocumented>True</SA1611ElementParametersMustBeDocumented>
+        <SA1615ElementReturnValueMustBeDocumented>True</SA1615ElementReturnValueMustBeDocumented>
+        <SA1617VoidReturnValueMustNotBeDocumented>True</SA1617VoidReturnValueMustNotBeDocumented>
+        <SA1618GenericTypeParametersMustBeDocumented>True</SA1618GenericTypeParametersMustBeDocumented>
+        <SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>True</SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes>
+        <SA1628DocumentationTextMustBeginWithACapitalLetter>True</SA1628DocumentationTextMustBeginWithACapitalLetter>
+        <SA1629DocumentationTextMustEndWithAPeriod>True</SA1629DocumentationTextMustEndWithAPeriod>
+        <SA1633SA1641UpdateFileHeader>Ignore</SA1633SA1641UpdateFileHeader>
+        <SA1639FileHeaderMustHaveSummary>False</SA1639FileHeaderMustHaveSummary>
+        <SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>True</SA1642ConstructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1643DestructorSummaryDocumentationMustBeginWithStandardText>True</SA1643DestructorSummaryDocumentationMustBeginWithStandardText>
+        <SA1644DocumentationHeadersMustNotContainBlankLines>True</SA1644DocumentationHeadersMustNotContainBlankLines>
+      </StyleCop.Documentation>
+      <StyleCop.Layout>
+        <SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>True</SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine>
+        <SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>True</SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine>
+        <SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>True</SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine>
+        <SA1511WhileDoFooterMustNotBePrecededByBlankLine>True</SA1511WhileDoFooterMustNotBePrecededByBlankLine>
+        <SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>True</SA1512SingleLineCommentsMustNotBeFollowedByBlankLine>
+        <SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>True</SA1513ClosingCurlyBracketMustBeFollowedByBlankLine>
+        <SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>True</SA1514ElementDocumentationHeaderMustBePrecededByBlankLine>
+        <SA1515SingleLineCommentMustBeProceededByBlankLine>True</SA1515SingleLineCommentMustBeProceededByBlankLine>
+      </StyleCop.Layout>
+      <StyleCop.Maintainability>
+        <SA1119StatementMustNotUseUnnecessaryParenthesis>True</SA1119StatementMustNotUseUnnecessaryParenthesis>
+      </StyleCop.Maintainability>
+      <StyleCop.Ordering>
+        <AlphabeticalUsingDirectives>Alphabetical</AlphabeticalUsingDirectives>
+        <ExpandUsingDirectives>FullyQualify</ExpandUsingDirectives>
+        <SA1212PropertyAccessorsMustFollowOrder>True</SA1212PropertyAccessorsMustFollowOrder>
+        <SA1213EventAccessorsMustFollowOrder>True</SA1213EventAccessorsMustFollowOrder>
+      </StyleCop.Ordering>
+      <StyleCop.Readability>
+        <SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>True</SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists>
+        <SA1106CodeMustNotContainEmptyStatements>True</SA1106CodeMustNotContainEmptyStatements>
+        <SA1108BlockStatementsMustNotContainEmbeddedComments>True</SA1108BlockStatementsMustNotContainEmbeddedComments>
+        <SA1109BlockStatementsMustNotContainEmbeddedRegions>True</SA1109BlockStatementsMustNotContainEmbeddedRegions>
+        <SA1120CommentsMustContainText>True</SA1120CommentsMustContainText>
+        <SA1121UseBuiltInTypeAlias>True</SA1121UseBuiltInTypeAlias>
+        <SA1122UseStringEmptyForEmptyStrings>True</SA1122UseStringEmptyForEmptyStrings>
+        <SA1123DoNotPlaceRegionsWithinElements>True</SA1123DoNotPlaceRegionsWithinElements>
+        <SA1124CodeMustNotContainEmptyRegions>True</SA1124CodeMustNotContainEmptyRegions>
+      </StyleCop.Readability>
+      <StyleCop.Spacing>
+        <SA1001CommasMustBeSpacedCorrectly>True</SA1001CommasMustBeSpacedCorrectly>
+        <SA1005SingleLineCommentsMustBeginWithSingleSpace>True</SA1005SingleLineCommentsMustBeginWithSingleSpace>
+        <SA1006PreprocessorKeywordsMustNotBePrecededBySpace>True</SA1006PreprocessorKeywordsMustNotBePrecededBySpace>
+        <SA1021NegativeSignsMustBeSpacedCorrectly>True</SA1021NegativeSignsMustBeSpacedCorrectly>
+        <SA1022PositiveSignsMustBeSpacedCorrectly>True</SA1022PositiveSignsMustBeSpacedCorrectly>
+        <SA1025CodeMustNotContainMultipleWhitespaceInARow>True</SA1025CodeMustNotContainMultipleWhitespaceInARow>
+      </StyleCop.Spacing>
+    </Profile>
+  </CodeCleanup>
+  <CodeStyleSettings>
+    <CSS>
+      <FormatSettings>
+        <DECLARATIONS_STYLE>SAME_LINE</DECLARATIONS_STYLE>
+      </FormatSettings>
+      <Naming2 />
+    </CSS>
+    <CSharp>
+      <FormatSettings>
+        <ALIGN_MULTILINE_ARGUMENT>False</ALIGN_MULTILINE_ARGUMENT>
+        <ALIGN_MULTILINE_ARRAY_AND_OBJECT_INITIALIZER>False</ALIGN_MULTILINE_ARRAY_AND_OBJECT_INITIALIZER>
+        <ALIGN_MULTILINE_PARAMETER>False</ALIGN_MULTILINE_PARAMETER>
+        <ANONYMOUS_METHOD_DECLARATION_BRACES>NEXT_LINE</ANONYMOUS_METHOD_DECLARATION_BRACES>
+        <BLANK_LINES_AROUND_FIELD>0</BLANK_LINES_AROUND_FIELD>
+        <BLANK_LINES_AROUND_SINGLE_LINE_INVOCABLE>1</BLANK_LINES_AROUND_SINGLE_LINE_INVOCABLE>
+        <CASE_BLOCK_BRACES>NEXT_LINE</CASE_BLOCK_BRACES>
+        <FORCE_ATTRIBUTE_STYLE>SEPARATE</FORCE_ATTRIBUTE_STYLE>
+        <FORCE_FIXED_BRACES_STYLE>ALWAYS_ADD</FORCE_FIXED_BRACES_STYLE>
+        <FORCE_FOR_BRACES_STYLE>ALWAYS_ADD</FORCE_FOR_BRACES_STYLE>
+        <FORCE_FOREACH_BRACES_STYLE>ALWAYS_ADD</FORCE_FOREACH_BRACES_STYLE>
+        <FORCE_IFELSE_BRACES_STYLE>ALWAYS_ADD</FORCE_IFELSE_BRACES_STYLE>
+        <FORCE_USING_BRACES_STYLE>ALWAYS_ADD</FORCE_USING_BRACES_STYLE>
+        <FORCE_WHILE_BRACES_STYLE>ALWAYS_ADD</FORCE_WHILE_BRACES_STYLE>
+        <INDENT_ANONYMOUS_METHOD_BLOCK>False</INDENT_ANONYMOUS_METHOD_BLOCK>
+        <INDENT_EMBRACED_INITIALIZER_BLOCK>False</INDENT_EMBRACED_INITIALIZER_BLOCK>
+        <INDENT_NESTED_USINGS_STMT>True</INDENT_NESTED_USINGS_STMT>
+        <INITIALIZER_BRACES>NEXT_LINE_SHIFTED</INITIALIZER_BRACES>
+        <KEEP_BLANK_LINES_IN_CODE>1</KEEP_BLANK_LINES_IN_CODE>
+        <KEEP_BLANK_LINES_IN_DECLARATIONS>1</KEEP_BLANK_LINES_IN_DECLARATIONS>
+        <KEEP_USER_LINEBREAKS>False</KEEP_USER_LINEBREAKS>
+        <MODIFIERS_ORDER IsNull="False">
+          <Item>public</Item>
+          <Item>protected</Item>
+          <Item>internal</Item>
+          <Item>private</Item>
+          <Item>static</Item>
+          <Item>new</Item>
+          <Item>abstract</Item>
+          <Item>virtual</Item>
+          <Item>override</Item>
+          <Item>sealed</Item>
+          <Item>readonly</Item>
+          <Item>extern</Item>
+          <Item>unsafe</Item>
+          <Item>volatile</Item>
+        </MODIFIERS_ORDER>
+        <PLACE_FIELD_ATTRIBUTE_ON_SAME_LINE>False</PLACE_FIELD_ATTRIBUTE_ON_SAME_LINE>
+        <PLACE_SIMPLE_ACCESSOR_ON_SINGLE_LINE>False</PLACE_SIMPLE_ACCESSOR_ON_SINGLE_LINE>
+        <PLACE_WHILE_ON_NEW_LINE>True</PLACE_WHILE_ON_NEW_LINE>
+        <REDUNDANT_THIS_QUALIFIER_STYLE>ALWAYS_USE</REDUNDANT_THIS_QUALIFIER_STYLE>
+        <SIMPLE_EMBEDDED_STATEMENT_STYLE>ON_SINGLE_LINE</SIMPLE_EMBEDDED_STATEMENT_STYLE>
+        <SPACE_AFTER_TYPECAST_PARENTHESES>False</SPACE_AFTER_TYPECAST_PARENTHESES>
+        <SPACE_AROUND_MULTIPLICATIVE_OP>True</SPACE_AROUND_MULTIPLICATIVE_OP>
+        <SPACE_BEFORE_SIZEOF_PARENTHESES>False</SPACE_BEFORE_SIZEOF_PARENTHESES>
+        <SPACE_BEFORE_TYPEOF_PARENTHESES>False</SPACE_BEFORE_TYPEOF_PARENTHESES>
+        <SPACE_WITHIN_SINGLE_LINE_ARRAY_INITIALIZER_BRACES>True</SPACE_WITHIN_SINGLE_LINE_ARRAY_INITIALIZER_BRACES>
+        <STICK_COMMENT>False</STICK_COMMENT>
+        <WRAP_AFTER_DECLARATION_LPAR>True</WRAP_AFTER_DECLARATION_LPAR>
+        <WRAP_AFTER_INVOCATION_LPAR>True</WRAP_AFTER_INVOCATION_LPAR>
+        <WRAP_ARGUMENTS_STYLE>CHOP_IF_LONG</WRAP_ARGUMENTS_STYLE>
+        <WRAP_BEFORE_BINARY_OPSIGN>True</WRAP_BEFORE_BINARY_OPSIGN>
+        <WRAP_BEFORE_FIRST_TYPE_PARAMETER_CONSTRAINT>True</WRAP_BEFORE_FIRST_TYPE_PARAMETER_CONSTRAINT>
+        <WRAP_EXTENDS_LIST_STYLE>CHOP_IF_LONG</WRAP_EXTENDS_LIST_STYLE>
+        <WRAP_PARAMETERS_STYLE>CHOP_IF_LONG</WRAP_PARAMETERS_STYLE>
+      </FormatSettings>
+      <UsingsSettings>
+        <AddImportsToDeepestScope>True</AddImportsToDeepestScope>
+        <QualifiedUsingAtNestedScope>True</QualifiedUsingAtNestedScope>
+      </UsingsSettings>
+      <Naming2>
+        <EventHandlerPatternLong>$object$_On$event$</EventHandlerPatternLong>
+        <EventHandlerPatternShort>$event$Handler</EventHandlerPatternShort>
+        <ExceptionName IsNull="False">
+        </ExceptionName>
+        <OverrideDefaultSettings>True</OverrideDefaultSettings>
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="TypesAndNamespaces" />
+        <PredefinedRule Inspect="True" Prefix="I" Suffix="" Style="AaBb" ElementKind="Interfaces" />
+        <PredefinedRule Inspect="True" Prefix="T" Suffix="" Style="AaBb" ElementKind="TypeParameters" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="MethodPropertyEvent" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aaBb" ElementKind="Locals" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aaBb" ElementKind="LocalConstants" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aaBb" ElementKind="Parameters" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="PublicFields" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="Constants" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="StaticReadonly" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="EnumMember" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="Other" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aaBb" ElementKind="PrivateInstanceFields" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aaBb" ElementKind="PrivateStaticFields" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="PrivateConstants" />
+        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="PrivateStaticReadonly" />
+        <UserRule Inspect="False" Prefix="" Suffix="" Style="AaBb" StaticnessKind="Static, Instance" AccessRight="Private, Protected, ProtectedInternal, Internal, Public" Description="ignore MSpec">
+          <ElementKinds>
+            <Kind Name="Machine.Specifications_Context" />
+            <Kind Name="Machine.Specifications_Specification" />
+          </ElementKinds>
+        </UserRule>
+      </Naming2>
+      <CustomMemberReorderingPatterns><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Patterns xmlns="urn:shemas-jetbrains-com:member-reordering-patterns">
+
+  <!-- Do not reorder COM interfaces -->
+  <Pattern>
+    <Match>
+      <And Weight="2000">
+        <Kind Is="interface"/>
+        <Or>
+          <HasAttribute CLRName="System.Runtime.InteropServices.InterfaceTypeAttribute"/>
+          <HasAttribute CLRName="System.Runtime.InteropServices.ComImport"/>
+        </Or>
+      </And>
+    </Match>
+  </Pattern>
+
+  <!-- Do not reorder P/Invoke structs -->
+  <Pattern>
+    <Match>
+      <And Weight="2000">
+        <Or>
+          <Kind Is="struct"/>
+          <Kind Is="class"/>
+        </Or>
+        <HasAttribute CLRName="System.Runtime.InteropServices.StructLayoutAttribute"/>
+      </And>
+    </Match>
+  </Pattern>
+
+  <!-- Do not reorder P/Invoke classes (called xxxNativeMethods) -->
+  <Pattern>
+    <Match>
+      <And Weight="2000">
+        <Kind Is="class"/>
+        <Name Is=".*NativeMethods" />
+      </And>
+    </Match>
+  </Pattern>
+
+  <!-- StyleCop pattern -->
+  <Pattern RemoveAllRegions="true">
+    <Match>
+      <Or Weight="1000" >
+        <Kind Is="class" />
+        <Kind Is="struct" />
+        <Kind Is="interface"/>
+      </Or>
+    </Match>
+
+    <!-- constants and fields -->
+    <Entry>
+      <Match>
+        <Or>
+          <Kind Is="constant"/>
+          <Kind Is="field"/>
+        </Or>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private"/>
+        <Kind Order="constant field"/>
+        <Readonly/>
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- constructors and destructors -->
+    <Entry>
+      <Match>
+        <Or Weight="200">
+          <Kind Is="constructor"/>
+          <Kind Is="destructor"/>
+        </Or>
+      </Match>
+      <Sort>
+        <Static/>
+        <Kind Order="constructor destructor"/>
+        <Access Order="public internal protected-internal protected private"/>
+      </Sort>
+    </Entry>
+
+    <!-- delegates -->
+    <Entry>
+      <Match>
+        <Kind Is="delegate"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Static />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- public events -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="event"/>
+          <Access Is="public"/>
+        </And>
+      </Match>
+      <Sort>
+        <Access Order="public" />
+        <Static />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- interface events -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="event"/>
+          <ImplementsInterface/>
+        </And>
+      </Match>
+      <Sort>
+        <ImplementsInterface Immediate="true"/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- other events -->
+    <Entry>
+      <Match>
+        <Kind Is="event"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Static />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- enum -->
+    <Entry>
+      <Match>
+        <Kind Is="enum"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- interfaces -->
+    <Entry>
+      <Match>
+        <Kind Is="interface" />
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- public properties -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="property"/>
+          <Access Is="public"/>
+        </And>
+      </Match>
+      <Sort>
+        <Access Order="public"/>
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- interface properties -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="property"/>
+          <ImplementsInterface/>
+        </And>
+      </Match>
+      <Sort>
+        <ImplementsInterface Immediate="true"/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- other properties -->
+    <Entry>
+      <Match>
+        <Kind Is="property"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private"/>
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- public indexers -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="indexer" Weight="1000" />
+          <Access Is="public"/>
+        </And>
+      </Match>
+      <Sort>
+        <Access Order="public" />
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- interface indexers -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="indexer" Weight="1000"/>
+          <ImplementsInterface/>
+        </And>
+      </Match>
+      <Sort>
+        <ImplementsInterface Immediate="true"/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- other indexers -->
+    <Entry>
+      <Match>
+        <Kind Is="indexer" Weight="1000" />
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- public methods -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="method"/>
+          <Access Is="public"/>
+        </And>
+      </Match>
+      <Sort>
+        <Access Order="public"/>
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- interface methods -->
+    <Entry>
+      <Match>
+        <And>
+          <Kind Is="method"/>
+          <ImplementsInterface/>
+        </And>
+      </Match>
+      <Sort>
+        <ImplementsInterface Immediate="true"/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- other methods -->
+    <Entry>
+      <Match>
+        <Kind Is="method"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private"/>
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- operators -->
+    <Entry>
+      <Match>
+        <Kind Is="operator"/>
+      </Match>
+      <Sort>
+        <Access Order="public internal protected-internal protected private" />
+        <Static/>
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- nested structs -->
+    <Entry>
+      <Match>
+        <Kind Is="struct"
+              Weight="600" />
+      </Match>
+      <Sort>
+        <Static />
+        <Access Order="public internal protected-internal protected private" />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- nested classes -->
+    <Entry>
+      <Match>
+        <Kind Is="class"
+              Weight="700" />
+      </Match>
+      <Sort>
+        <Static />
+        <Access Order="public internal protected-internal protected private" />
+        <Name/>
+      </Sort>
+    </Entry>
+
+    <!-- all other members -->
+    <Entry/>
+
+  </Pattern>
+</Patterns>]]></CustomMemberReorderingPatterns>
+    </CSharp>
+    <HTML>
+      <FormatSettings />
+    </HTML>
+    <JavaScript>
+      <FormatSettings>
+        <CONTROL_STATEMENTS_BRACES>NEXT_LINE</CONTROL_STATEMENTS_BRACES>
+        <FORCE_CONTROL_STATEMENTS_BRACES>ALWAYS_ADD</FORCE_CONTROL_STATEMENTS_BRACES>
+        <FUNCTION_BRACES>NEXT_LINE</FUNCTION_BRACES>
+        <INDENT_CASE_FROM_SWITCH>True</INDENT_CASE_FROM_SWITCH>
+        <OBJECT_LITERAL_BRACES>NEXT_LINE</OBJECT_LITERAL_BRACES>
+      </FormatSettings>
+      <Naming2 />
+    </JavaScript>
+    <VB>
+      <FormatSettings />
+      <ImportsSettings />
+      <Naming2>
+        <EventHandlerPatternLong>$object$_On$event$</EventHandlerPatternLong>
+        <EventHandlerPatternShort>$event$Handler</EventHandlerPatternShort>
+      </Naming2>
+    </VB>
+    <Web>
+      <Naming2 />
+    </Web>
+    <XML>
+      <FormatSettings />
+    </XML>
+    <Xaml>
+      <Naming2>
+        <UserRule Name="XAML_FIELD" Inspect="True" Prefix="_" Suffix="" Style="aaBb" />
+        <UserRule Name="NAMESPACE_ALIAS" Inspect="True" Prefix="" Suffix="" Style="aa_bb" />
+        <UserRule Name="XAML_RESOURCE" Inspect="True" Prefix="" Suffix="" Style="AaBb" />
+      </Naming2>
+    </Xaml>
+    <GenerateMemberBody />
+    <Naming2>
+      <EventHandlerPatternLong>$object$_On$event$</EventHandlerPatternLong>
+      <EventHandlerPatternShort>$event$Handler</EventHandlerPatternShort>
+      <ExceptionName IsNull="False">
+      </ExceptionName>
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="aaBb" ElementKind="Locals" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="aaBb" ElementKind="Parameters" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="TypesAndNamespaces" />
+      <PredefinedRule Inspect="False" Prefix="I" Suffix="" Style="AaBb" ElementKind="Interfaces" />
+      <PredefinedRule Inspect="False" Prefix="T" Suffix="" Style="AaBb" ElementKind="TypeParameters" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="MethodPropertyEvent" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="aaBb" ElementKind="LocalConstants" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="PublicFields" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="Constants" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="StaticReadonly" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="EnumMember" />
+      <PredefinedRule Inspect="False" Prefix="" Suffix="" Style="AaBb" ElementKind="Other" />
+      <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="PrivateConstants" />
+      <PredefinedRule Inspect="True" Prefix="_" Suffix="" Style="aaBb" ElementKind="PrivateInstanceFields" />
+      <PredefinedRule Inspect="True" Prefix="_" Suffix="" Style="aaBb" ElementKind="PrivateStaticFields" />
+      <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="PrivateStaticReadonly" />
+      <UserRule Inspect="True" Prefix="When_" Suffix="" Style="aa_bb" StaticnessKind="Static, Instance" AccessRight="Private, Protected, ProtectedInternal, Internal, Public" Description="MSpec context class &quot;When_all_lower&quot;">
+        <ElementKinds>
+          <Kind Name="Machine.Specifications_Context" />
+        </ElementKinds>
+      </UserRule>
+      <UserRule Inspect="True" Prefix="should_" Suffix="" Style="aa_bb" StaticnessKind="Static, Instance" AccessRight="Private, Protected, ProtectedInternal, Internal, Public" Description="MSpec specification &quot;should_all_lower&quot;">
+        <ElementKinds>
+          <Kind Name="Machine.Specifications_Specification" />
+        </ElementKinds>
+      </UserRule>
+    </Naming2>
+  </CodeStyleSettings>
+  <StyleCopForReSharper>
+    <AlwaysCheckForUpdatesWhenVisualStudioStarts>False</AlwaysCheckForUpdatesWhenVisualStudioStarts>
+    <LastUpdateCheckDate>2011-09-05</LastUpdateCheckDate>
+    <SpecifiedAssemblyPath IsNull="True" />
+  </StyleCopForReSharper>
+  <ReflectorOptions PostReformat="True" ShowXmlDoc="True" ReflectorExe="C:\Programme\Reflector.NET\Reflector.exe" LanguageExtension="cs" />
+  <CodeStructure>
+    <SynchronizeCaretToView>True</SynchronizeCaretToView>
+    <SynchronizeViewToCaret>True</SynchronizeViewToCaret>
+  </CodeStructure>
+  <RunInspection.Filter>
+    <ConfigurableSeverity Id="UnusedMember.Global" />
+    <ConfigurableSeverity Id="ClassNeverInstantiated.Local" />
+    <ConfigurableSeverity Id="MemberCanBeInternal" />
+    <ConfigurableSeverity Id="EventNeverSubscribedTo.Global" />
+    <ConfigurableSeverity Id="UnusedAutoPropertyAccessor.Global" />
+    <ConfigurableSeverity Id="MemberCanBePrivate.Global" />
+    <ConfigurableSeverity Id="MemberCanBeProtected.Global" />
+    <ConfigurableSeverity Id="MemberCanBeMadeStatic.Local" />
+    <ConfigurableSeverity Id="MemberCanBeMadeStatic.Global" />
+    <ConfigurableSeverity Id="ClassCanBeSealed.Local" />
+    <ConfigurableSeverity Id="ClassCanBeSealed.Global" />
+    <ConfigurableSeverity Id="SuggestBaseTypeForParameter" />
+    <ConfigurableSeverity Id="RedundantToStringCallForValueType" />
+    <ConfigurableSeverity Id="RedundantArgumentNameForLiteralExpression" />
+    <ConfigurableSeverity Id="SimilarAnonymousTypeNearby" />
+    <ConfigurableSeverity Id="TryStatementsCanBeMerged" />
+    <ConfigurableSeverity Id="SuggestUseVarKeywordEverywhere" />
+    <ConfigurableSeverity Id="ConvertToAutoPropertyWithPrivateSetter" />
+    <ConfigurableSeverity Id="ConvertIfStatementToReturnStatement" />
+    <ConfigurableSeverity Id="InvertIf" />
+    <ConfigurableSeverity Id="ConvertIfStatementToSwitchStatement" />
+    <ConfigurableSeverity Id="LoopCanBePartlyConvertedToQuery" />
+    <ConfigurableSeverity Id="UnknownCssVendorExtension" />
+    <ConfigurableSeverity Id="Xaml.BindingWithoutContextReferenceNotResolvedHighlighting" />
+    <StaticSeverity Severity="2" Title="Structural Search Hints" GroupId="StructuralSearch" />
+    <StaticSeverity Severity="0" Title="" GroupId="a" />
+    <StaticSeverity Severity="2" Title="" GroupId="a" />
+  </RunInspection.Filter>
+  <DecompiledSourceLegalNotice Agreed="True" />
+  <ProductUsageFeedbackSubmitter>
+    <myShouldPrompt>False</myShouldPrompt>
+  </ProductUsageFeedbackSubmitter>
+  <ContextActions>
+    <JetBrains.ReSharper.Intentions.CSharp.ContextActions.NonI18n.CSharpSurroundWithQuotesAction>False</JetBrains.ReSharper.Intentions.CSharp.ContextActions.NonI18n.CSharpSurroundWithQuotesAction>
+    <JetBrains.ReSharper.Intentions.CSharp.ContextActions.InlineAsAnonymousTypeAction>False</JetBrains.ReSharper.Intentions.CSharp.ContextActions.InlineAsAnonymousTypeAction>
+  </ContextActions>
+  <DocumentSettings>
+    <myOpenDocumentAfterModification>True</myOpenDocumentAfterModification>
+  </DocumentSettings>
+</Configuration>
